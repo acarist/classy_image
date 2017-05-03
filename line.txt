@@ -1,0 +1,6 @@
+retrain.py \
+--bottleneck_dir=trainer \
+--model_dir=trainer/inception \
+--output_graph=trainer/retrained_graph.pb \
+--output_labels=trainer/retrained_labels.txt \
+--image_dir trainer/train_this
